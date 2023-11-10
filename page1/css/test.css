@@ -1,0 +1,291 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 1440px;
+  height: 662px; */
+  position: relative;
+  background: #32b47a;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+/* Group 34 */
+.group-34 {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 0px;
+  top: px;
+}
+
+/* Group 21 */
+.group-21 {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 0px;
+  top: px;
+}
+
+/* Frame 2 */
+.frame-2 {
+  position: absolute;
+  width: 1440px;
+  height: 662px;
+  left: 0px;
+  top: px;
+}
+
+/* Rectangle 11
+
+position: absolute;
+width: 1440px;
+height: 662px;
+left: 1440px;
+top: 0px;
+
+background: #32b47a;
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+article {
+  left: 0;
+  top: 0;
+}
+
+/* Group 31 */
+.box-2 {
+  position: absolute;
+  width: 700px;
+  height: 612px;
+  left: 1045px;
+  top: 130px;
+  /* border: 2px solid beige; */
+
+  /* transform: matrix(0, 1, 1, 0, 0, 0); */
+}
+
+.img {
+  position: absolute;
+  width: 384px;
+  height: 568px;
+  left: 1192px;
+  top: 76px;
+
+  /* background: url(/img/kids2\ 1kids.png); */
+}
+.img > img {
+  width: 498px;
+  height: 845px;
+}
+
+/* Rectangle 2 */
+.yellow {
+  position: absolute;
+  width: 191px;
+  height: 191px;
+  left: 504px;
+  top: 416px;
+  background: #ffcf3c;
+  border-radius: 60px 5px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* Rectangle 6 */
+.red {
+  position: absolute;
+  width: 191px;
+  height: 325px;
+  left: 503px;
+  top: 2px;
+
+  background: #ef584e;
+  border-radius: 60px 5px;
+  transform: rotate(-180deg);
+}
+
+/* Rectangle 5 */
+.blue {
+  position: absolute;
+  width: 191px;
+  height: 221px;
+  left: 1px;
+  top: 380px;
+
+  background: #513cf3;
+  border-radius: 80px 5px 80px 80px;
+}
+
+/* Group 32 */
+.box-1 {
+  /* border: 2px solid wheat; */
+  position: absolute;
+  width: 760px;
+  height: 612px;
+  left: 205px;
+  top: 130px;
+}
+
+/* Group 38 */
+.group-38 {
+  position: absolute;
+  width: 645px;
+  height: 390px;
+  left: px;
+  top: px;
+}
+#label-ism {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  top: 345px;
+  left: 74px;
+}
+#label-raqam {
+  position: absolute;
+  left: 458px;
+  top: 345px;
+  color: white;
+  font-size: 15px;
+}
+#label-rozi {
+  position: absolute;
+  left: 80px;
+  top: 593px;
+  color: white;
+  font-size: 15px;
+}
+/* Group 3 */
+
+/* Rectangle 2 */
+#sumbit {
+  font-size: 17px;
+  top: 525px;
+  left: 423px;
+  position: absolute;
+  width: 331px;
+  height: 82px;
+  background: #ffcf3c;
+  border-radius: 15px 50px;
+  cursor: pointer;
+}
+
+/* Group 7 */
+#ism {
+  position: absolute;
+}
+
+/* Rectangle 2 */
+#ism {
+  position: absolute;
+  color: #c8c4c4;
+  width: 331px;
+  height: 82px;
+  font-size: 15px;
+  top: 389px;
+  left: 60px;
+  background: #ffffff;
+  border-radius: 15px 50px;
+  border: none;
+  /* transform: rotate(-180deg); */
+}
+
+/* Group 8 */
+#raqam {
+  position: absolute;
+  color: #c8c4c4;
+  font-size: 15px;
+  top: 389px;
+  left: 423px;
+}
+
+/* Rectangle 2 */
+#raqam {
+  position: absolute;
+  width: 331px;
+  height: 82px;
+  background: #ffffff;
+  border-radius: 15px 50px;
+  border: none;
+  /* transform: rotate(-180deg); */
+}
+
+/* Group 37 */
+#rozi {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+}
+
+/* check (36) 1 */
+#rozi {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+/* Vector */
+#rozi {
+  position: absolute;
+  left: 9%;
+  right: 0%;
+  top: 150.62%;
+  bottom: 16.62%;
+
+  background: #bfe9d6;
+}
+
+/* Frame 1 */
+.text-1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: px;
+  top: px;
+}
+
+/* Zamonaviy yondashuv maktabgacha ta'limda */
+.text-1 {
+  position: absolute;
+  width: 637px;
+  height: 110px;
+  top: 35px;
+  left: 54px;
+  font-family: "Abhaya Libre ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 55px;
+  /* or 115% */
+
+  color: #ffcf3c;
+}
+.text-2 {
+  position: absolute;
+  left: 60px;
+  top: 184px;
+  font-size: 24px;
+  font: Aleo;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  border-radius: 36px;
+  font-weight: 700;
+  height: 54px;
+  font-size: 16px;
+  padding-inline: 20px;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+  border: none;
+}
