@@ -129,6 +129,7 @@ article {
 
 /* Group 38 */
 .group-38 {
+  /* border: 2px solid white; */
   position: absolute;
   width: 645px;
   height: 390px;
@@ -155,20 +156,6 @@ article {
   top: 593px;
   color: white;
   font-size: 15px;
-}
-/* Group 3 */
-
-/* Rectangle 2 */
-#sumbit {
-  font-size: 17px;
-  top: 525px;
-  left: 423px;
-  position: absolute;
-  width: 331px;
-  height: 82px;
-  background: #ffcf3c;
-  border-radius: 15px 50px;
-  cursor: pointer;
 }
 
 /* Group 7 */
@@ -268,24 +255,63 @@ article {
   font-size: 24px;
   font: Aleo;
 }
-
 button {
+  top: 397px;
+  left: 423px;
+  width: 331px;
+  height: 82px;
+  background: #ffcf3c;
+  border-radius: 15px 50px;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  width: 100%;
-  border-radius: 36px;
-  font-weight: 700;
-  height: 54px;
-  font-size: 16px;
-  padding-inline: 20px;
-  background-color: transparent;
-  color: #fff;
-  text-transform: uppercase;
-  overflow: hidden;
-  text-align: center;
-  transition: all 0.25s ease-in-out;
-  z-index: 1;
-  border: none;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+button:active .icon {
+  transform: scale(0.95);
 }
