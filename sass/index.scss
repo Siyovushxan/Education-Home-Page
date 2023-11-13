@@ -1,0 +1,166 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.block {
+  width: 1900px;
+  height: 921px;
+  background: #32b47a;
+  position: relative;
+
+  .box-1 {
+    /* border: 2px solid wheat; */
+    position: absolute;
+    width: 760px;
+    height: 612px;
+    left: 205px;
+    top: 130px;
+    .text-1 {
+      position: absolute;
+      width: 637px;
+      height: 110px;
+      top: 35px;
+      left: 54px;
+      font-family: "Abhaya Libre ExtraBold";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 64px;
+      line-height: 55px;
+      color: #ffcf3c;
+    }
+
+    .text-2 {
+      position: absolute;
+      left: 60px;
+      top: 184px;
+      font-size: 24px;
+      font: Aleo;
+    }
+    #label-ism {
+      position: absolute;
+      color: white;
+      font-size: 15px;
+      top: 345px;
+      left: 74px;
+    }
+    #ism {
+      position: absolute;
+      color: #c8c4c4;
+      width: 331px;
+      height: 82px;
+      font-size: 15px;
+      top: 389px;
+      left: 60px;
+      background: #ffffff;
+      border-radius: 15px 50px;
+      border: none;
+    }
+    #label-raqam {
+      position: absolute;
+      left: 458px;
+      top: 345px;
+      color: white;
+      font-size: 15px;
+    }
+    #raqam {
+      position: absolute;
+      width: 331px;
+      height: 82px;
+      background: #ffffff;
+      border-radius: 15px 50px;
+      border: none;
+      color: #c8c4c4;
+      font-size: 15px;
+      top: 389px;
+      left: 423px;
+    }
+    #label-rozi {
+      position: absolute;
+      left: 80px;
+      top: 593px;
+      color: white;
+      font-size: 15px;
+    }
+    #rozi {
+      top: 587px;
+      left: 57px;
+      background: #bfe9d6;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+    }
+    button {
+      top: 397px;
+      left: 423px;
+      width: 331px;
+      height: 82px;
+      background: #ffcf3c;
+      border-radius: 15px 50px;
+      color: rgb(0, 0, 0);
+      font-size: 17px;
+      border: none;
+      letter-spacing: 0.05em;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+  .box-2 {
+    position: absolute;
+    width: 700px;
+    height: 612px;
+    left: 1045px;
+    top: 130px;
+    /* border: 2px solid beige; */
+    .yellow {
+      position: absolute;
+      width: 191px;
+      height: 191px;
+      left: 504px;
+      top: 416px;
+      background: #ffcf3c;
+      border-radius: 60px 5px;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    /* Rectangle 6 */
+    .red {
+      position: absolute;
+      width: 191px;
+      height: 325px;
+      left: 503px;
+      top: 2px;
+
+      background: #ef584e;
+      border-radius: 60px 5px;
+      transform: rotate(-180deg);
+    }
+
+    /* Rectangle 5 */
+    .blue {
+      position: absolute;
+      width: 191px;
+      height: 221px;
+      left: 1px;
+      top: 380px;
+
+      background: #513cf3;
+      border-radius: 80px 5px 80px 80px;
+    }
+  }
+  .img {
+    position: absolute;
+    width: 384px;
+    height: 568px;
+    left: 1192px;
+    top: 76px;
+    img {
+      width: 498px;
+      height: 845px;
+    }
+  }
+}
